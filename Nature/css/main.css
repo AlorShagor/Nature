@@ -1,0 +1,127 @@
+/* Common Css  */
+
+
+/* Google Font  */
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+/* Google Font End */
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-size: 62.5%;
+	font-family: 'Ubuntu', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+	transition: all 0.3s ease-out 0s;
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Frank Ruhl Libre', serif;
+	font-weight: 600;
+}
+/* Common Css End */
+
+
+
+/* Slider Part Css  */
+.navbar-brand {
+	display: inline-block;
+	padding-top: .3125rem;
+	padding-bottom: .3125rem;
+	margin-right: 1rem;
+	font-size: 2rem;
+	line-height: inherit;
+	white-space: nowrap;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: rgba(255,255,255,.5);
+	font-size: 1.4rem;
+	padding-left: 2rem;
+}
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+	color: rgb(47, 194, 47);
+}
+.carousel-item .active img{
+	height: 80vh !important;
+	width: 100%;
+}
+.img-fluid {
+	max-width: 100%;
+	height: 90vh;
+	object-fit: cover;
+}
+
+
+.about-heading h3{
+	font-size: 3rem;
+}
+.about-text-part h4{
+	font-size: 2rem;
+}
+.about-text-part p{
+	font-size: 1.1rem;
+	padding-top: 1.5rem;
+	font-weight: 300 !important;
+	line-height: 2rem;
+	font-style: italic;
+}
+.about-img figure img{
+	height: 20rem;
+	width: 100%;
+}
+.service-detail img{
+	width: 100%;
+	height: 15rem !important;
+	object-fit: cover;
+}
+.service-detail{
+	position: relative;
+}
+.service-detail h5 {
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+}
+.service-heading h3{
+	font-size: 3rem;
+}
+.contact-img img {
+	width: 100%;
+	object-fit: cover;
+	height: 40rem !important;
+}
+.contact-heading h3{
+	font-size: 3rem;
+}
+.contact-form-heading h5{
+	font-size: 2rem;
+	text-transform: capitalize;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+.footer-license{
+	font-size: 1.1rem;
+	letter-spacing: .5px;
+	font-style: italic;
+}
+.form-group label{
+	font-size: 1.1rem;
+}
+.form-group input {
+	margin-bottom: 1rem;
+}
+/* Slider Part Css End */
+
